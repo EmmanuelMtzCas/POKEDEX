@@ -1,0 +1,288 @@
+
+
+@font-face {
+   font-family: 'Pokemon Solid.ttf';
+   src: url('./Pokemon Solid.ttf') format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+
+* {
+   padding: 0px;
+   margin: 0px;
+   background-color: white;
+ }
+
+h1{
+   text-align: center;
+  
+}
+ .izquierda {
+ 
+   background-color: #ce1131;
+   width: 500px;
+   height: 700px;
+   margin-top: 5px;
+   margin-left: 10%;
+   border-radius: 10px;
+ }
+
+ .derecha {
+   background-color: #ce1131;
+   width: 500px;
+   height: 600px;
+   margin-top: -615px;
+   margin-left: 48%;
+   border-radius: 10px;
+ }
+
+ .screen {
+   background-color: white;
+   width: 410px;
+   height: 250px;
+   margin-top: -580px;
+   margin-left: 13%;
+   border-radius: 10px;
+ }
+
+ 
+ .estadistica {
+  background-color:#032d29;
+  width: 410px;
+  height: 320px;
+  margin-top: -180px;
+  margin-left: 51%;
+  border-radius: 10px;
+}
+
+.estadistica h3{
+  background-color:#032d29;
+  color:#fbd901;
+  width: 340px;
+
+  margin-left: 10px;
+  
+
+
+}
+
+.estadistica label{
+  background-color:#032d29;
+  color:#fbd901;
+  width: 240px;
+
+  margin-left: 10px;
+  
+
+
+}
+
+ .luces {
+   background-color: #ce1131;
+   width: 400px;
+   height: 94px;
+   margin-top: -495px;
+   margin-left: 10%;
+   border-radius: 10px;
+ }
+
+
+ #blanco {
+  width: 95px;
+  height: 95px;
+  background: white;
+  margin-top: 5px;
+  margin-left: 7%;
+  border-radius: 100%;
+}
+
+#azul{
+  width: 80px;
+  height: 80px;
+  background-color: #009dd4;
+  margin-top: -91px;
+  margin-left: 8%;
+  border-radius: 100%;
+}
+
+#azul-bajo{
+  width: 60px;
+  height: 60px;
+  background-color: #0bcdff;
+  margin-top: -80px;
+  margin-left: 10%;
+  border-radius: 100%;
+}
+
+
+#azul-mbajo{
+  width: 20px;
+  height: 20px;
+  background-color: #9ce8ff;
+  margin-top: -50px;
+  margin-left: 15%;
+  border-radius: 100%;
+}
+
+#rojo{
+  width: 40px;
+  height: 40px;
+  background-color:#ef0707;
+  margin-top: -25px;
+  margin-left: 30%;
+  border-radius: 100%;
+}
+
+#rojof{
+  width: 35px;
+  height: 35px;
+  background-color:#990405;
+  margin-top: -37px;
+  margin-left: 31%;
+  border-radius: 100%;
+}
+
+
+#rojof1{
+  width: 25px;
+  height: 25px;
+  background-color:#ef0707;
+  margin-top: -35px;
+  margin-left: 32%;
+  border-radius: 100%;
+}
+
+
+
+#amarillo{
+  width: 40px;
+  height: 40px;
+  background-color:#e2e615;
+  margin-top: -30px;
+  margin-left: 40%;
+  border-radius: 100%;
+}
+
+
+#amarillof{
+  width: 35px;
+  height: 35px;
+  background-color:#81830c;
+  margin-top: -36px;
+  margin-left: 41%;
+  border-radius: 100%;
+}
+
+#amarillof1{
+  width: 25px;
+  height: 25px;
+  background-color:#e2e615;
+  margin-top: -36px;
+  margin-left: 41%;
+  border-radius: 100%;
+}
+
+
+
+#amarillo2{
+  width: 40px;
+  height: 40px;
+  background-color:#e2e615;
+  margin-top: -29px;
+  margin-left: 50%;
+  border-radius: 100%;
+}
+
+#amarillof2{
+  width: 35px;
+  height: 35px;
+  background-color:#81830c;
+  margin-top: -36px;
+  margin-left: 51%;
+  border-radius: 100%;
+
+}
+
+#amarillof12{
+  width: 25px;
+  height: 25px;
+  background-color:#e2e615;
+  margin-top: -36px;
+  margin-left: 51%;
+  border-radius: 100%;
+}
+
+.btn-abajo{
+  background-color:#ce1131;
+   width: 500px;
+   height: 94px;
+   margin-top: 355px;
+   margin-left: 10%;
+   border-radius: 10px;
+
+}
+
+.btn-abajo button{
+  background-color: black;
+  border-color: #009dd4;
+  color: aliceblue;
+  width: 85px;
+  height: 85px;
+  border-radius: 100%;
+  margin-top: -70px;
+  margin-left: 7%;
+}
+
+#pokeName{
+  width: 240px;
+  height: 95px;
+  border-radius: 10%;
+  margin-top: -10px;
+  background-color: #55ab62;
+  margin-left: 20%;
+  font-size: 40px;
+  font-family: 'Pokemon Solid.ttf';
+
+
+}
+
+#pokeImg{
+  margin-left: 20%;
+}
+
+#rojo-reg{
+  background-color:#c70c13;
+  width: 95px;
+  height: 20px;
+  border-radius: 38%;
+  margin-top: -60px;
+  margin-left: 30%;
+}
+
+#azul-reg{
+  background-color:#095378;
+  width: 95px;
+  height: 20px;
+  border-radius: 38%;
+  margin-top: -20px;
+  margin-left: 55%;
+}
+
+
+#negro-reg{
+  background-color:black;
+  width: 95px;
+  height: 25px;
+
+  margin-top: 10px;
+  margin-left: 80%;
+}
+
+#negro2-reg{
+  background-color:black;
+  width: 25px;
+  height: 95px;
+
+  margin-top: -60px;
+  margin-left: 87%;
+}

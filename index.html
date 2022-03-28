@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex </title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body>
+
+ 
+    <h1 style="font-family: 'Pokemon Solid.ttf'; font-size: 40px;" >Pokedex </h1>
+ 
+    
+    <div class="izquierda"></div>
+
+    <div class="derecha"></div>
+
+    <div class="screen">
+        <img src="./poke.png" alt="Pokemon" id="pokeImg" width="250px">
+      
+    </div>
+
+     <div class="estadistica">
+         <h3 >NOMBRE: <label id="name" style="text-transform:uppercase;"></label> </h3>
+         <h3>TIPO:    <label id="tipo" style="text-transform:uppercase;"></label> </h3>
+         <h3>ALTURA: <label id="altura"></label></h3>
+         <h3>PESO:   <label id="peso"></label></h3>
+         <h3>ESTADISTICAS:<label id="estadisticas" style="text-transform:uppercase;"></label></h3>
+         <h3>ATAQUES:<label id="ataques" style="text-transform:uppercase;"></label></h3>
+
+     </div>
+
+    <div class="luces">
+        <div  id="blanco"></div>
+        <div id="azul"></div>
+        <div id="azul-bajo"></div>
+        <div id="azul-mbajo"></div>
+        <div id="rojo"></div>
+        <div id="rojof"></div>
+        <div id="rojof1"></div>
+        <div id="amarillo"></div>
+        <div id="amarillof"></div>
+        <div id="amarillof1"></div>
+        <div id="amarillo2"></div>
+        <div id="amarillof2"></div>
+        <div id="amarillof12"></div>
+
+    </div>
+
+    <div class="btn-abajo">
+
+      <button id="buscar" style="font-family: 'Pokemon Solid.ttf';" onclick="fetchPokemon()">BUSCAR</button>
+      <div id="rojo-reg"></div>
+      <div id="azul-reg"></div>
+      <div id="negro-reg"></div>
+      <div id="negro2-reg"></div>
+      <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+    </div>
+
+
+
+    <!--
+    <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+    <img src="./poke.png" alt="Pokemon" id="pokeImg" width="150px">
+    <button onclick="fetchPokemon()">Buscar Pokemon</button>
+
+    --->
+
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
